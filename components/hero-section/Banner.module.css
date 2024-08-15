@@ -1,0 +1,108 @@
+.shape {
+  position: absolute;
+  opacity: 0.7;
+  /* Slightly visible */
+  z-index: -1;
+  /* Not touchable */
+  will-change: transform, opacity;
+  /* Optimization */
+  animation: float calc(4s * 5) infinite ease-in-out;
+  animation: spin calc(10s) infinite ease-in-out;
+}
+
+/* Define the float animation */
+@keyframes float {
+  0% {
+    transform: rotate(0deg) translateY(0px);
+  }
+
+  50% {
+    transform: rotate(40deg) translateY(20px);
+  }
+
+  100% {
+    transform: rotate(0deg) translateY(0px);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+
+@keyframes movebounce {
+  0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+  }
+
+  50% {
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px)
+  }
+
+  to {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+  }
+}
+
+/* Random positions */
+.shape:nth-child(1) {
+  right: 145px;
+  top: -287px
+}
+
+.shape:nth-child(2) {
+  top: 130px;
+  left: 45px;
+}
+
+.shape:nth-child(3) {
+  right: 25px;
+  top: 70%;
+  animation: movebounce calc(10s) infinite ease-in-out;
+}
+
+.shape:nth-child(4) {
+  right: 35%;
+  top: 150px;
+  animation: movebounce calc(10s) infinite ease-in-out;
+}
+
+.shape:nth-child(5) {
+  right: 52%;
+  top: 40%;
+}
+
+.shape:nth-child(6) {
+  right: 50%;
+  top: 60%;
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .shape {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 599px) {
+  .shape {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .text-4xl {
+    font-size: 1.875rem;
+  }
+}

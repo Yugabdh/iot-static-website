@@ -19,8 +19,8 @@ module.exports = {
     extend: {
       fontFamily: {
         headline: ['Montserrat', 'sans-serif'],
-        body: ['Open Sans', 'sans-serif'],
-        accent: ['Roboto Slab', 'serif'],
+        body: ['Poppins', 'sans-serif'],
+        accent: ['Poppins', 'serif'],
       },
 
       colors: {

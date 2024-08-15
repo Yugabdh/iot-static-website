@@ -6,7 +6,7 @@ import Image from 'next/image';
 const HeroSection = () => {
     return (
         <div className="relative pt-32 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: 'url(/images/hero-background.png)' }}>
-            <div className="container mx-auto md:px-16">
+            <div className="container mx-auto md:px-16 z-10">
                 <div className="flex flex-wrap items-center">
                     <div className="w-full lg:w-1/2">
                         <div className="text-center lg:text-left">

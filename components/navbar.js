@@ -39,7 +39,7 @@ export default function NavBar() {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigationConfig.map((item) => (
-                        <Link key={item.title} href={item.href} className="text-primary font-semibold leading-6 text-gray-900">
+                        <Link key={item.title} href={item.href} className={clsx("text-primary font-semibold leading-6 hover:text-sky-700", path==item.href? "text-sky-700": "text-gray-900")}>
                             {item.title}
                         </Link>
                     ))}

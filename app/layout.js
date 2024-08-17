@@ -1,19 +1,20 @@
+import Footer from '@/components/footer';
 import NavBar from '../components/navbar';
 import "./globals.css";
 
 export const metadata = {
-  title: "Home | SD IOTecs - Expert Solutions for Your Needs",
+  title: "SD IOTecs - Expert Solutions for Your Needs",
   description: "Welcome to SD IOTecs. We offer expert solutions and resources on [Your Key Topics]. Explore our content and services designed to help you achieve your goals.",
   keywords: "SD IOTecs, [Key Topic 1], [Key Topic 2], [Relevant Keywords]",
   author: "SD IOTecs",
   robots: "index, follow",
-  ogTitle: "Home | SD IOTecs - Expert Solutions for Your Needs",
+  ogTitle: "SD IOTecs - Expert Solutions for Your Needs",
   ogDescription: "Explore SD IOTecs for expert solutions and valuable resources on [Your Key Topics]. Find out how we can help you succeed.",
   ogImage: "/path-to-your-image.jpg",
   ogUrl: "https://yourwebsite.com",
   twitterCard: "summary_large_image",
   twitterSite: "@yourtwitterhandle",
-  twitterTitle: "Home | SD IOTecs",
+  twitterTitle: "SD IOTecs",
   twitterDescription: "Welcome to SD IOTecs. Discover expert solutions and valuable content on [Your Key Topics].",
   twitterImage: "/path-to-your-image.jpg",
 };
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
           <NavBar />
         </header>
         {children}
+        <Footer />
       </body>
     </html>
   );

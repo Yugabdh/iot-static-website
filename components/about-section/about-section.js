@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const AboutSection = () => {
     return (
-        <div className="relative pb-32 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: 'url(/images/dots.png)' }}>
+        <section className="relative pb-32 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: 'url(/images/dots.png)' }}>
             <div className="container mx-auto md:px-16 z-10">
                 <div className="flex flex-wrap items-center">
                     <div className="w-full lg:w-1/2 text-center lg:text-left mt-8 lg:mt-0">
@@ -46,7 +46,7 @@ const AboutSection = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

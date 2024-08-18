@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const HeroSection = () => {
     return (
-        <div className="relative pt-32 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: 'url(/images/hero-background.png)' }}>
+        <section className="relative pt-32 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: 'url(/images/hero-background.png)' }}>
             <div className="container mx-auto md:px-16 z-10">
                 <div className="flex flex-wrap items-center">
                     <div className="w-full lg:w-1/2">
@@ -37,7 +37,7 @@ const HeroSection = () => {
             <Image src="/images/svg/rectangle.svg" className={styles.shape} alt="shape" height={20} width={20} />
             <Image src="/images/svg/cross.svg" className={styles.shape} alt="shape" height={30} width={30} />
             <Image src="/images/svg/cross.svg" className={styles.shape} alt="shape" height={30} width={30} />
-        </div>
+        </section>
     )
 }
 

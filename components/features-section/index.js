@@ -5,7 +5,7 @@ import FeaturesCard from './features-card';
 
 const FeatureSection = () => {
     return (
-        <div className="py-32">
+        <section className="py-32">
             <div className="container mx-auto">
                 <div className="lg:px-8 py-8">
                     <div className="text-center mb-8">
@@ -23,7 +23,7 @@ const FeatureSection = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

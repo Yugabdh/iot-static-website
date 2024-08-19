@@ -29,7 +29,7 @@ const Contact = () => {
                 </p>
 
                 <div className="flex items-center mt-5">
-                  <FaLocationDot className='mr-2 text-sky-700 text-xl'/>
+                  <FaLocationDot className='mr-2 text-sky-700 text-xl' />
                   <span className="text-sm">House #14, Street #12, Darulaman Road, Kabul, Afghanistan.</span>
                 </div>
                 <div className="flex items-center mt-5">

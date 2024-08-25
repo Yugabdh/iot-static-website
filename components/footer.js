@@ -41,12 +41,12 @@ const Footer = () => {
                         <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4">
                             <p className="font-medium text-gray-900">Follow us</p>
                             <ul className="mt-4 flex gap-6">
-                                <li>
+                                {/* <li>
                                     <a
                                         href="#"
                                         rel="noreferrer"
                                         target="_blank"
-                                        className="text-gray-700 transition hover:text-sky-700"
+                                        className="text-sky-700 transition hover:text-gray-700"
                                     >
                                         <span className="sr-only">Facebook</span>
                                         <FaFacebookF />
@@ -59,7 +59,7 @@ const Footer = () => {
                                         href="#"
                                         rel="noreferrer"
                                         target="_blank"
-                                        className="text-gray-700 transition hover:text-sky-700"
+                                        className=text-sky-700 transition hover:text-gray-700"
                                     >
                                         <span className="sr-only">Instagram</span>
 
@@ -72,19 +72,19 @@ const Footer = () => {
                                         href="#"
                                         rel="noreferrer"
                                         target="_blank"
-                                        className="text-gray-700 transition hover:text-sky-700"
+                                        className="text-sky-700 transition hover:text-gray-700"
                                     >
                                         <span className="sr-only">X.com</span>
                                         <FaXTwitter />
                                     </a>
-                                </li>
+                                </li> */}
 
                                 <li>
                                     <a
-                                        href="#"
+                                        href="https://www.linkedin.com/company/sd-iotecs/about/"
                                         rel="noreferrer"
                                         target="_blank"
-                                        className="text-gray-700 transition hover:text-sky-700"
+                                        className="text-sky-700 transition hover:text-gray-700"
                                     >
                                         <span className="sr-only">LinkedIn</span>
                                         <FaLinkedinIn

@@ -18,11 +18,11 @@ export default function NavBar() {
         <div className='container mx-auto'>
             <nav aria-label="Global" className="flex items-center justify-between py-6 lg:px-8">
                 <div className="flex lg:flex-1">
-                    <Link href="/" aria-label="Navigate to the home page" className="flex items-center space-x-2 text-primary font-headline font-bold">
+                    <Link href="/" aria-label="Navigate to the home page" className="flex items-center space-x-2 text-lg font-headline font-bold">
                         <img
                             alt="Logo"
                             src="/iotecs-logo.svg"
-                            className="h-8 w-auto"
+                            className="h-10 w-auto"
                         />
                         <span>SD IoTecs</span>
                     </Link>
@@ -49,13 +49,13 @@ export default function NavBar() {
                 <div className="fixed inset-0 z-50" />
                 <DialogPanel className="container fixed inset-y-0 right-0 py-6 z-50 w-full overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
-                        <Link href="/" aria-label="Navigate to the home page" className="md:hidden flex items-center space-x-2 text-primary font-headline font-bold">
-                            <img
-                                alt="Logo"
-                                src="/iotecs-logo.svg"
-                                className="h-8 w-auto"
-                            />
-                            <span>SD IOTecs</span>
+                        <Link href="/" aria-label="Navigate to the home page" className="md:hidden flex items-center space-x-2 text-lg font-headline font-bold">
+                        <img
+                            alt="Logo"
+                            src="/iotecs-logo.svg"
+                            className="h-10 w-auto"
+                        />
+                            <span>SD IoTecs</span>
                         </Link>
                         <button
                             type="button"

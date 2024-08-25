@@ -20,7 +20,7 @@ const Contact = () => {
                 <p className="mt-4 text-sm leading-7 uppercase">
                   Contact
                 </p>
-                <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight">
+                <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight font-headline">
                   Get In <span className="text-sky-700">Touch</span>
                 </h3>
                 <p className="mt-4 leading-7 text-gray-200">

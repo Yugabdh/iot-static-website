@@ -10,7 +10,7 @@ const AboutSection = () => {
                     <div className="w-full lg:w-1/2 text-center lg:text-left mt-8 lg:mt-0">
                         <div className="relative p-10">
                             <div className='flex justify-center'>
-                            <Image src="/logo.png" alt="image" layout='responsive' width={100} height={100} />
+                                <Image src="/logo.png" alt="image" layout='responsive' width={100} height={100} />
 
                             </div>
                         </div>
@@ -25,13 +25,10 @@ const AboutSection = () => {
                                 </div>
 
                                 <p className="text-gray-600">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    SD IoTecs excels in Intelligent Building solutions, offering a comprehensive suite of services including IBMS commissioning, cloud integration, and semantic ontology tagging.
                                 </p>
                                 <p className="text-gray-600">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+                                    Our expert team delivers top-notch, tailored solutions to meet unique building needs, backed by innovative 3D graphics and advanced analytics. Committed to excellence and driven by the latest technologies, we provide customized, scalable solutions that enhance efficiency and innovation.
                                 </p>
                             </div>
                             <div className="my-5 inline-block">

@@ -2,7 +2,7 @@
   position: absolute;
   opacity: 0.7;
   /* Slightly visible */
-  z-index: 1;
+  z-index: 0;
   /* Not touchable */
   will-change: transform, opacity;
   /* Optimization */
@@ -98,11 +98,5 @@
 @media (max-width: 599px) {
   .shape {
     display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  .text-4xl {
-    font-size: 1.875rem;
   }
 }

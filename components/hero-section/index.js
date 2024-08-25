@@ -19,14 +19,14 @@ const HeroSection = () => {
                             <div className="my-5 inline-block">
                                 <Link
                                     href="/contact-us"
-                                    className="text-white bg-gradient-to-br from-sky-700 to-slate-900 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-slate-300 dark:focus:ring-slate-800 rounded-lg px-6 py-3 text-center me-2 mb-2"
+                                    className="text-white bg-gradient-to-br from-sky-700 to-slate-900 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-slate-300 rounded-lg px-6 py-3 text-center me-2 mb-2"
                                     aria-label="Contact Us"
                                 >
                                     Contact Us
                                 </Link>
                                 <Link
                                     href="/about-us"
-                                    className="text-sm font-semibold leading-6 text-gray-900"
+                                    className="text-sm font-semibold leading-6 text-gray-900 px-6 py-3 text-center me-2 mb-2"
                                     aria-label="Learn more about us"
                                 >
                                     Learn more <span aria-hidden="true">→</span>

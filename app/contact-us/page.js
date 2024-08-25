@@ -8,7 +8,7 @@ const Contact = () => {
     <section className="mb-32">
       <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.047111461!2d73.78056575729849!3d18.524598599643525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1723989707156!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.510498728659!2d73.87491437527957!3d18.46052148262145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eb5e6bca99ed%3A0xc279184a9c880112!2sRajgruhi%20Business%20Hub!5e0!3m2!1sen!2sin!4v1724596310562!5m2!1sen!2sin"
           width="100%" height="480" style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>
       </div>
       <div className="container px-6 md:px-12">
@@ -24,28 +24,27 @@ const Contact = () => {
                   Get In <span className="text-sky-700">Touch</span>
                 </h3>
                 <p className="mt-4 leading-7 text-gray-200">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                  industry&apos;s standard dummy text ever since the 1500s.
+                  Have questions or need support? Reach out to the SD IoTecs team and we&apos;ll be happy to assist you!
                 </p>
 
                 <div className="flex items-center mt-5">
                   <FaLocationDot className='mr-2 text-sky-700 text-xl' />
-                  <span className="text-sm">House #14, Street #12, Darulaman Road, Kabul, Afghanistan.</span>
+                  <span className="text-sm">Office no 203, Rajgruhi Business Hub, Nr Gokul Hotel, Kondhwa, Budruk, 411048</span>
                 </div>
                 <div className="flex items-center mt-5">
                   <IoCallSharp className='mr-2 text-sky-700 text-xl' />
-                  <span className="text-sm">+93 749 99 65 50</span>
+                  <span className="text-sm">+91 932 4207 852</span>
                 </div>
 
               </div>
-              <form className="md:col-span-8 p-10">
+              <form className="md:col-span-8 p-10" target="_blank" action="https://formsubmit.co/darshan@sdiotecs.com" method="POST">
                 <div className="flex flex-wrap -mx-3 mb-6">
                   <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                       for="grid-first-name">
                       First Name
                     </label>
-                    <input
+                    <input name="first-name"
                       className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                       id="grid-first-name" type="text" placeholder="Jane" />
                   </div>
@@ -54,7 +53,7 @@ const Contact = () => {
                       for="grid-last-name">
                       Last Name
                     </label>
-                    <input
+                    <input name="last-name"
                       className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                       id="grid-last-name" type="text" placeholder="Doe" />
                   </div>
@@ -67,7 +66,7 @@ const Contact = () => {
                     </label>
                     <input
                       className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      id="grid-email" type="email" placeholder="********@*****.**" />
+                      id="grid-email" type="email" name="email" placeholder="********@*****.**" />
                   </div>
                 </div>
 
@@ -77,9 +76,10 @@ const Contact = () => {
                       for="grid-password">
                       Your Message
                     </label>
-                    <textarea rows="10"
+                    <textarea name="message" rows="10"
                       className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
                   </div>
+                  <input type="text" name="_honey" style={{ display: 'none' }} />
                   <div className="flex justify-between w-full px-3">
                     <button
                       className="shadow bg-sky-700 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"

@@ -24,7 +24,7 @@ export default function NavBar() {
                             src="/iotecs-logo.svg"
                             className="h-8 w-auto"
                         />
-                        <span>SD IOTecs</span>
+                        <span>SD IoTecs</span>
                     </Link>
                 </div>
                 <div className="flex lg:hidden">

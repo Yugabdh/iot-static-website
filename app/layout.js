@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata = {
   title: 'Innovating Building Management | SD IoTecs',
   description: 'SD IoTecs provides comprehensive Intelligent Building solutions including Semantic Ontology, Cloud Integration, and Advanced Analytics to make buildings smarter and more efficient.',
-  keywords: 'Intelligent Building, Cloud Integration, Semantic Ontology, Digital Twin, UDMI, Digital Buildings, Advanced Analytics, 3D Graphics',
+  keywords: ["SD IoTecs", "SD IoTecs site", "SD IoTecs website", "Intelligent Building", "Cloud Integration", "Semantic Ontology", "Digital Twin", "UDMI", "Digital Buildings", "Advanced Analytics", "3D Graphics"],
   openGraph: {
     title: 'Innovating Building Management Through Seamless Cloud Integration Solutions',
     description: 'From Semantic Ontology to Advanced Analytics, SD IoTecs makes your buildings smarter with comprehensive solutions tailored to meet your needs.',
@@ -25,10 +25,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Innovating Building Management | SD IoTecs',
     description: 'From Semantic Ontology to Advanced Analytics, SD IoTecs makes your buildings smarter with comprehensive solutions tailored to meet your needs.',
-    siteId: '1467726470533754880',
-    creator: '@sdiotecs',
-    creatorId: '1467726470533754880',
-    images: ['https://sdiotecs.com/og.png'],
+    images: ['https://sdiotecs.com/logo.png'],
   },
 
   metadataBase: new URL('https://sdiotecs.com'),

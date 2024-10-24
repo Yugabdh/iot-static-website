@@ -1,28 +1,5 @@
-import SectionTitleInfo from '@/components/section-title-info';
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
-import { FaCheck } from "react-icons/fa";
-
-import { GrUserExpert, GrTechnology, GrCubes } from "react-icons/gr";
-
-const bullets = [
-  {
-    title: "Unparalleled Expertise",
-    desc: "Our team brings together the best in the industry for IBMS commissioning and integration solutions.",
-    icon: <GrUserExpert />,
-  },
-  {
-    title: "Tailored Solutions",
-    desc: "We customize our offerings to meet the unique needs of each client.",
-    icon: <GrCubes />,
-  },
-  {
-    title: "Innovation-Driven",
-    desc: "We stay ahead of the curve with the latest technologies and methodologies.",
-    icon: <GrTechnology />,
-  },
-];
+import Image from 'next/image';
 
 const PartnerPage = () => {
   return (
@@ -30,7 +7,7 @@ const PartnerPage = () => {
       <section className="pt-32 pb-16 bg-gradient-to-r from-sky-700 to-sky-950">
         <div className="container mx-auto md:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-5xl font-headline font-bold mb-4 text-white">Our Trusted Partners</h2>
+            <h2 className="text-3xl md:text-5xl font-headline font-bold mb-4 text-white">Our Trusted Partners</h2>
             <div className="w-16 h-1 bg-sky-700 mx-auto mb-4"></div>
             <p className="text-lg text-gray-100">
               Hear From Our Partners
@@ -46,9 +23,8 @@ const PartnerPage = () => {
               logo="images/svg/partners/n3uron.svg"
               logAlt="n3uron Logo"
               subHeading="We Are Certified Integrator"
-              info="As a Certified Integrator, we offer unparalleled support and economic advantages. 
-                    With co-marketing opportunities and dedicated project assistance, 
-                    we help elevate your business."
+              info="SD IoTecs is a certified integrator for the N3uron platform, 
+                    offering seamless connectivity and advanced integration solutions for intelligent buildings."
               href="https://www.example.com/contact-us"
             />
           </div>

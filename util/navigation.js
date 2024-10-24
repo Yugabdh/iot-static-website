@@ -4,12 +4,16 @@ const navigationConfig = [
         href: "/"
     },
     {
-        title: "About us",
+        title: "About Us",
         href: "/about-us"
     },
     {
-        title: "Contact us",
+        title: "Contact Us",
         href: "/contact-us"
+    },
+    {
+        title: "Our Partners",
+        href: "/our-partners"
     },
 ];
 

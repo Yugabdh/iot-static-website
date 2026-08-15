@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import partners from '@/util/partners';
 
 const PartnerPage = () => {
   return (
@@ -18,15 +19,16 @@ const PartnerPage = () => {
       <section className="pt-16">
         <div className="container mx-auto md:px-16">
           <div className="flex flex-col gap-7">
-            <Partner
-              name="N3uron"
-              logo="images/svg/partners/n3uron.svg"
-              logAlt="n3uron Logo"
-              subHeading="We Are Certified Integrator"
-              info="SD IoTecs is a certified integrator for the N3uron platform, 
-                    offering seamless connectivity and advanced integration solutions for intelligent buildings."
-              href="https://www.example.com/contact-us"
-            />
+            {partners.map((partner, index) => (
+              <Partner
+                key={index}
+                name={partner.name}
+                logo={partner.logo}
+                logAlt={partner.logAlt}
+                subHeading={partner.subHeading}
+                info={partner.info}
+              />
+            ))}
           </div>
         </div>
       </section>

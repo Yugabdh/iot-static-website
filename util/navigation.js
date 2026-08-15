@@ -1,19 +1,91 @@
 const navigationConfig = [
     {
-        title: "Home",
-        href: "/"
+        title: "Services",
+        href: "/services",
+        children: [
+            {
+                title: "Supply, Installation, Testing & Commissioning",
+                href: "/services/supply-installation-testing-commissioning",
+            },
+            {
+                title: "Continuous Commissioning",
+                href: "/services/continuous-commissioning",
+            },
+            {
+                title: "Data Modelling & Semantic Tagging",
+                href: "/services/data-modelling-semantic-tagging",
+            },
+            {
+                title: "Cloud & IoT Integration",
+                href: "/services/cloud-iot-integration",
+            },
+            {
+                title: "Dashboards & Reporting",
+                href: "/services/dashboards-reporting",
+            },
+            {
+                title: "3D Graphics & Visualisation",
+                href: "/services/3d-graphics-visualisation",
+            },
+            {
+                title: "All Services",
+                href: "/services",
+                isViewAll: true,
+            },
+        ],
     },
+
     {
-        title: "About Us",
-        href: "/about-us"
+        title: "Industries",
+        href: "/industries",
+        children: [
+            {
+                title: "Pharmaceutical & Cleanroom",
+                href: "/industries/pharmaceutical-cleanroom",
+            },
+            {
+                title: "Data Centres & Hyperscale",
+                href: "/industries/data-centres-hyperscale",
+            },
+            {
+                title: "Commercial Offices & Campuses",
+                href: "/industries/commercial-offices-campuses",
+            },
+            {
+                title: "Manufacturing & Industrial",
+                href: "/industries/manufacturing-industrial",
+            },
+            {
+                title: "All Industries",
+                href: "/industries",
+                isViewAll: true,
+            },
+        ],
     },
+
+    {
+        title: "Clients & Projects",
+        href: "/clients-projects",
+    },
+
+    {
+        title: "Technology Partners",
+        href: "/technology-partners",
+    },
+
+    {
+        title: "About",
+        href: "/about",
+    },
+
+    {
+        title: "Insights",
+        href: "/insights",
+    },
+
     {
         title: "Contact Us",
-        href: "/contact-us"
-    },
-    {
-        title: "Our Partners",
-        href: "/our-partners"
+        href: "/contact-us",
     },
 ];
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/image";
 
 const AboutSection = () => {
     return (
@@ -10,7 +10,16 @@ const AboutSection = () => {
                     <div className="w-full lg:w-1/2 text-center lg:text-left mt-8 lg:mt-0">
                         <div className="relative p-10">
                             <div className='flex justify-center'>
-                                <Image src="/logo.png" alt="image" layout='responsive' width={100} height={100} />
+                                <Image
+                                    src="/logo.png"
+                                    alt="image"
+                                    width={100}
+                                    height={100}
+                                    sizes="100vw"
+                                    style={{
+                                        width: "100%",
+                                        height: "auto"
+                                    }} />
 
                             </div>
                         </div>
@@ -44,7 +53,7 @@ const AboutSection = () => {
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
 export default AboutSection;

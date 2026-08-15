@@ -1,5 +1,5 @@
 import SectionTitleInfo from '@/components/section-title-info';
-import Image from 'next/image';
+import Image from "next/image";
 import Link from 'next/link';
 import React from 'react';
 import { FaCheck } from "react-icons/fa";
@@ -122,7 +122,10 @@ const About = () => {
                   className={"object-cover"}
                   placeholder="blur"
                   blurDataURL="/images/svg/about-us.svg"
-                />
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </div>
             </div>
 
@@ -172,7 +175,10 @@ const About = () => {
                   className={"object-cover"}
                   placeholder="blur"
                   blurDataURL="/images/svg/choose-us.svg"
-                />
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </div>
             </div>
 

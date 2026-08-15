@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/image";
 import partners from '@/util/partners';
 
 const PartnerPage = () => {
@@ -46,7 +46,10 @@ function Partner(props) {
           width={150}
           height={50}
           className="object-contain"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </div>
       <div className="md:w-2/3 md:pl-4 pt-8 md:pt-0">
         <h2 className="text-xl font-headline font-bold text-sky-700">{props.name}</h2>

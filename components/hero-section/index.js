@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import styles from './Banner.module.css';
-import Image from 'next/image';
+import Image from "next/image";
 
 const HeroSection = () => {
     return (
@@ -36,19 +36,77 @@ const HeroSection = () => {
                     </div>
                     <div className="w-full lg:w-1/2 text-center lg:text-left mt-8 lg:mt-0">
                         <div className="relative">
-                            <Image src="/images/hero-header-side.png" alt="Illustration of modern building management solutions" layout="responsive" width={500} height={500} />
+                            <Image
+                                src="/images/hero-header-side.png"
+                                alt="Illustration of modern building management solutions"
+                                width={500}
+                                height={500}
+                                sizes="100vw"
+                                style={{
+                                    width: "100%",
+                                    height: "auto"
+                                }} />
                         </div>
                     </div>
                 </div>
             </div>
-            <Image src="/images/svg/cross.svg" className={styles.shape} aria-hidden={true} alt="Decorative cross shape" height={30} width={30} />
-            <Image src="/images/svg/ellipse.svg" className={styles.shape} aria-hidden={true} alt="Decorative ellipse shape" height={30} width={30} />
-            <Image src="/images/svg/rectangle.svg" className={styles.shape} aria-hidden={true} alt="Decorative rectangle shape" height={20} width={20} />
-            <Image src="/images/svg/cross.svg" className={styles.shape} aria-hidden={true} alt="Decorative cross shape" height={30} width={30} />
-            <Image src="/images/svg/cross.svg" className={styles.shape} aria-hidden={true} alt="Decorative cross shape" height={30} width={30} />
+            <Image
+                src="/images/svg/cross.svg"
+                className={styles.shape}
+                aria-hidden={true}
+                alt="Decorative cross shape"
+                height={30}
+                width={30}
+                style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                }} />
+            <Image
+                src="/images/svg/ellipse.svg"
+                className={styles.shape}
+                aria-hidden={true}
+                alt="Decorative ellipse shape"
+                height={30}
+                width={30}
+                style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                }} />
+            <Image
+                src="/images/svg/rectangle.svg"
+                className={styles.shape}
+                aria-hidden={true}
+                alt="Decorative rectangle shape"
+                height={20}
+                width={20}
+                style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                }} />
+            <Image
+                src="/images/svg/cross.svg"
+                className={styles.shape}
+                aria-hidden={true}
+                alt="Decorative cross shape"
+                height={30}
+                width={30}
+                style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                }} />
+            <Image
+                src="/images/svg/cross.svg"
+                className={styles.shape}
+                aria-hidden={true}
+                alt="Decorative cross shape"
+                height={30}
+                width={30}
+                style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                }} />
         </section>
-
-    )
+    );
 }
 
 export default HeroSection;

@@ -2,14 +2,13 @@ import React from 'react';
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCallSharp } from "react-icons/io5";
 
-
 const Contact = () => {
   return (
     <section className="mb-32">
       <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.510498728659!2d73.87491437527957!3d18.46052148262145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eb5e6bca99ed%3A0xc279184a9c880112!2sRajgruhi%20Business%20Hub!5e0!3m2!1sen!2sin!4v1724596310562!5m2!1sen!2sin"
-          width="100%" height="480" style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>
+          width="100%" height="480" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
       </div>
       <div className="container px-6 md:px-12">
         <div
@@ -41,7 +40,7 @@ const Contact = () => {
                 <div className="flex flex-wrap -mx-3 mb-6">
                   <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                      for="grid-first-name">
+                      htmlFor="grid-first-name">
                       First Name
                     </label>
                     <input name="first-name"
@@ -50,7 +49,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full md:w-1/2 px-3">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                      for="grid-last-name">
+                      htmlFor="grid-last-name">
                       Last Name
                     </label>
                     <input name="last-name"
@@ -61,7 +60,7 @@ const Contact = () => {
                 <div className="flex flex-wrap -mx-3 mb-6">
                   <div className="w-full px-3">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                      for="grid-password">
+                      htmlFor="grid-email">
                       Email Address
                     </label>
                     <input
@@ -73,10 +72,10 @@ const Contact = () => {
                 <div className="flex flex-wrap -mx-3 mb-6">
                   <div className="w-full px-3">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                      for="grid-password">
+                      htmlFor="grid-message">
                       Your Message
                     </label>
-                    <textarea name="message" rows="10"
+                    <textarea name="message" id="grid-message" rows="10"
                       className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
                   </div>
                   <input type="text" name="_honey" style={{ display: 'none' }} />

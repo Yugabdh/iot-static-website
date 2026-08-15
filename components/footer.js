@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React, { Suspense } from "react";
 import { FaLinkedinIn } from "react-icons/fa6";
 import CurrentYear from "./current-year";
 
@@ -191,7 +191,11 @@ const Footer = () => {
                 <div className="mt-12 border-t border-gray-200 pt-6">
                     <div className="flex flex-col gap-3 text-xs leading-5 text-gray-500 lg:flex-row lg:items-center lg:justify-between">
                         <p>
-                            © <CurrentYear /> SD IoTecs LLP. All rights reserved.
+                            ©{" "}
+                            <Suspense fallback={<span></span>}>
+                                <CurrentYear />
+                            </Suspense>{" "}
+                            SD IoTecs LLP. All rights reserved.
                         </p>
 
                         <div className="flex flex-wrap gap-x-4 gap-y-2">

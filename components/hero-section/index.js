@@ -45,7 +45,9 @@ const HeroSection = () => {
                                 style={{
                                     width: "100%",
                                     height: "auto"
-                                }} />
+                                }}
+                                loading="eager"
+                                />
                         </div>
                     </div>
                 </div>

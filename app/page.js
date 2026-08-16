@@ -1,8 +1,8 @@
-import AboutSection from "@/components/about-section";
-import CTAsection from "@/components/cta-section";
 import FeatureSection from "@/components/features-section";
 import HeroSection from "@/components/hero-section";
+import IndustriesSection from "@/components/industries-section";
 import LockInArgumentSection from "@/components/lockIn-argument-section/LockInArgumentSection";
+import ProofMetricsSection from "@/components/proof-matrix-section";
 import TechnicalCapabilitySection from "@/components/technical-capability-section";
 
 export const metadata = {
@@ -19,7 +19,8 @@ export default function Home() {
       <LockInArgumentSection />
       <FeatureSection />
       <TechnicalCapabilitySection />
-      <CTAsection />
+      <IndustriesSection />
+      <ProofMetricsSection />
     </main>
   );
 }

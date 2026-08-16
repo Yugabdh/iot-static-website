@@ -79,11 +79,6 @@ const navigationConfig = [
     },
 
     {
-        title: "Insights",
-        href: "/insights",
-    },
-
-    {
         title: "Contact Us",
         href: "/contact-us",
     },

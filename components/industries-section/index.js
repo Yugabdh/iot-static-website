@@ -3,9 +3,9 @@ import React from 'react'
 const IndustriesSection = () => {
     const industries = [
         {
-            title: 'Pharmaceutical & Cleanroom',
+            title: 'Commercial Offices & Campuses',
             description:
-                'GMP-classified environments where the reporting is as regulated as the control.',
+                'Multi-building estates where energy performance, tenant comfort and a single pane of glass all have to coexist.',
         },
         {
             title: 'Data Centres & Hyperscale',
@@ -13,14 +13,14 @@ const IndustriesSection = () => {
                 'High point-count estates, strict change control, and integration to client-mandated cloud standards.',
         },
         {
-            title: 'Commercial Offices & Campuses',
-            description:
-                'Multi-building estates where energy performance, tenant comfort and a single pane of glass all have to coexist.',
-        },
-        {
             title: 'Manufacturing & Industrial',
             description:
                 'Utilities monitoring, plant room automation and production-adjacent environmental control.',
+        },
+        {
+            title: 'Pharmaceutical & Cleanroom',
+            description:
+                'GMP-classified environments where the reporting is as regulated as the control.',
         },
     ]
 

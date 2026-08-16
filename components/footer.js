@@ -200,11 +200,11 @@ const Footer = () => {
 
                         <div className="flex flex-wrap gap-x-4 gap-y-2">
                             <span>
-                                LLPIN: [ ]
+                                LLPIN: [ACI-1045]
                             </span>
 
                             <span>
-                                GSTIN: [ ]
+                                GSTIN: [27AFIFS6601N1ZI]
                             </span>
 
                             <Link

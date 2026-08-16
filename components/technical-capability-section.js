@@ -42,6 +42,7 @@ const TechnicalCapabilitySection = () => {
                 'Google Cloud Platform',
                 'Microsoft Azure',
                 'Amazon Web Services',
+                'IQ Next',
             ],
         },
         {

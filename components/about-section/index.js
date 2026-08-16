@@ -28,16 +28,33 @@ const AboutSection = () => {
                         <div className="text-center lg:text-left">
                             <div className="text-center lg:text-left mb-8">
                                 <span className="text-sm font-medium text-sky-600 bg-sky-700/30 py-1 px-4 rounded-full">About Us</span>
-                                <h2 className="text-3xl font-headline font-bold mt-2 mb-4">Our Featured Solutions</h2>
+                                <h2 className="text-3xl font-headline font-bold mt-2 mb-4">Your Building Data Should Outlive Your Controls Contractor</h2>
                                 <div className="flex justify-center sm:justify-start lg:justify-start">
                                     <div className="w-16 h-1 bg-sky-700 mb-4"></div>
                                 </div>
 
                                 <p className="text-gray-600">
-                                    SD IoTecs excels in Intelligent Building solutions, offering a comprehensive suite of services including IBMS commissioning, cloud integration, and semantic ontology tagging.
+                                    Most building management systems quietly lock you in. Proprietary point naming, closed 
+                                    drivers, licence-gated integration, graphics only one contractor can open. Individually, each 
+                                    is a small compromise made under programme pressure. Together they mean that five 
+                                    years later, changing supplier costs more than living with the one you have.
+                                    We build the opposite. Open protocols, published data schemas, and complete handover of 
+                                    everything we produce. Station backups, licences, source graphics, as-built documentation, 
+                                    tagging dictionaries and administrator credentials are yours from day one. If you ever 
+                                    choose to replace us, your system keeps running. We think that is the only honest way to 
+                                    sell an open framework.
                                 </p>
                                 <p className="text-gray-600">
-                                    Our expert team delivers top-notch, tailored solutions to meet unique building needs, backed by innovative 3D graphics and advanced analytics. Committed to excellence and driven by the latest technologies, we provide customized, scalable solutions that enhance efficiency and innovation.
+                                    Open protocols by default — BACnet/IP, Modbus, LonWorks, MQTT v5 and REST. 
+                                    Proprietary integration only where you explicitly require it.
+                                </p>
+                                <p className="text-gray-600">
+                                    Portable data models — your points are tagged to published schemas, so any analytics or 
+                                    fault-detection platform can read them without a translation project.
+                                </p>
+                                <p className="text-gray-600">
+                                    Complete handover — licences, backups, source files and documentation transferred in full 
+                                    at project close. No hostage assets.
                                 </p>
                             </div>
                             <div className="my-5 inline-block">

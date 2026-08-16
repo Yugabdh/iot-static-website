@@ -2,6 +2,8 @@ import AboutSection from "@/components/about-section";
 import CTAsection from "@/components/cta-section";
 import FeatureSection from "@/components/features-section";
 import HeroSection from "@/components/hero-section";
+import LockInArgumentSection from "@/components/lockIn-argument-section/LockInArgumentSection";
+import TechnicalCapabilitySection from "@/components/technical-capability-section";
 
 export const metadata = {
   title: 'BMS Integrator India | Tridium Niagara & LOYTEC | SD IoTecs',
@@ -14,9 +16,10 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
+      <LockInArgumentSection />
       <FeatureSection />
+      <TechnicalCapabilitySection />
       <CTAsection />
-      <AboutSection />
     </main>
   );
 }

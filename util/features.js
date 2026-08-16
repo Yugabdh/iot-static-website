@@ -1,28 +1,33 @@
 const features = [
     {
-        title: "IBMS Commissioning Services",
+        title: "Supply, Installation, Testing & Commissioning",
         src: "/images/png/icons/services.png",
-        info: "Our specialized team goes beyond standard IBMS commissioning. We believe in continuous commissioning, fine-tuning PID logics based on operational feedback to ensure comfort and efficiency. We excel in EasyIO, Tridium Niagara, and ALC systems."
+        info: "Complete BMS delivery under one contract — design review, panel fabrication, field device supply, installation supervision, point-to-point testing, functional performance testing and documented handover."
     },
     {
-        title: "Cloud Integration Solutions",
-        src: "/images/png/icons/cloud-service.png",
-        info: "We offer brand-agnostic cloud integration solutions for any on-premises IBMS software, utilizing MQTT 5.0 for optimal data transmission. Our focus is on visualizing data in a manner that enhances decision-making for your facility."
+        title: "Continuous Commissioning",
+        src: "/images/png/icons/commissioning.png",
+        info: "Commissioning is not a signature at handover. We tune sequences and control loops against live operating data, so performance holds in year three as well as week one."
     },
     {
-        title: "Ontology Schema Tagging",
+        title: "Data Modelling & Semantic Tagging",
         src: "/images/png/icons/data-stream.png",
-        info: "With expertise in Google Digital Buildings, Haystack, and Brick schema, we create precise tags for your data, adhering to the highest standards in the industry."
+        info: "Project Haystack, Brick Schema, Google Digital Buildings and UDMI. We model your estate so analytics and fault detection work on day one, not after a data clean-up nobody budgeted for."
     },
     {
-        title: "On-Prem Device Management via Cloud",
-        src: "/images/png/icons/motion-sensor.png",
-        info: "We are adept at using the best interfaces for managing on-prem devices through the cloud, including the open-source UDMI project."
+        title: "Cloud & IoT Integration",
+        src: "/images/png/icons/cloud-service.png",
+        info: " Secure telemetry from on-premise BMS to Google Cloud, Azure and AWS using MQTT v5, REST APIs and store-and-forward edge gateways. We integrate into your cloud, on your terms."
     },
     {
-        title: "Advanced 3D Graphics and Layouts",
+        title: "Dashboards & Reporting",
+        src: "/images/png/icons/dashboard.png",
+        info: "Cleanroom and regulated-environment reporting in PDF, Excel and CSV, plus operational dashboards on open-source platforms. No per-seat licence for the reporting layer."
+    },
+    {
+        title: "3D Graphics & Visualisation",
         src: "/images/png/icons/bar-chart.png",
-        info: "Our team excels in creating state-of-the-art 3D graphics, including layouts and equipment libraries, setting a new standard in visual representation."
+        info: "Photoreal plant rooms, isometric layouts and equipment libraries for Niagara, IQ Vision and web front ends, produced by our own studio."
     },
 ];
 

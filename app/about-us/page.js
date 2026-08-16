@@ -202,7 +202,7 @@ const About = () => {
                   </h3>
                 </div>
 
-                <div className="w-full mt-5 text-center">
+                <div className="w-full mt-5 text-center md:text-left text-2xl">
                   <p className="mb-4">
                     Accredited, not self-declared — Tridium Niagara and LOYTEC accreditation, held and
                     current, with certificates available on request.

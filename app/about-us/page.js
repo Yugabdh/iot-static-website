@@ -6,6 +6,11 @@ import { FaCheck } from "react-icons/fa";
 
 import { GrUserExpert, GrTechnology, GrCubes } from "react-icons/gr";
 
+export const metadata = {
+  title: 'About SD IoTecs | Tridium Niagara & LOYTEC Accredited Integrator',
+  description: 'SD IoTecs LLP is a vendor-neutral building automation integrator accredited by Tridium Niagara, LOYTEC, EasyIO, Delta Controls and N3uron, delivering across Mumbai, Pune, Hyderabad, Bengaluru',
+}
+
 const bullets = [
   {
     title: "Unparalleled Expertise",
@@ -30,10 +35,10 @@ const About = () => {
       <section className="py-16 mt-16 bg-gray-100" style={{ backgroundImage: 'url(/images/dots.png)' }}>
         <div className="container mx-auto md:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-headline font-bold mb-4">Who We Are And What We Do</h2>
+            <h2 className="text-3xl font-headline font-bold mb-4">A Building Automation Specialist Built by Engineers</h2>
             <div className="w-16 h-1 bg-sky-700 mx-auto mb-4"></div>
             <p className="text-lg text-gray-700">
-            SD IoTecs leads the way in Intelligent Building solutions, offering unparalleled expertise and innovation.
+              SD IoTecs leads the way in Intelligent Building solutions, offering unparalleled expertise and innovation.
             </p>
           </div>
 
@@ -42,17 +47,22 @@ const About = () => {
               <div className="bg-white p-6 rounded-lg shadow-lg h-full">
                 <h4 className="text-xl font-semibold mb-4 text-sky-700 font-headline">WHO WE ARE</h4>
                 <p className="mb-4">
-                  SD IoTecs is a leader in providing cutting-edge solutions for Intelligent Buildings. We
-                  specialize in a complete range of services that ensure your building operates at its highest
-                  potential, from Semantic Ontology tagging to full Cloud Integration and advanced analytics.
+                  SD IoTecs LLP is a building automation systems integrator working across Pune, Mumbai, Hydrebad and Bangalore .
+                  We supply, install, test and commission building management systems,
+                  and we build the data layer on top of them — semantic models, cloud integration,
+                  dashboards and compliance reporting. We hold accreditation from Tridium for the Niagara
+                  Framework and from LOYTEC, and we commission on EasyIO. We are deliberately not tied
+                  to a single manufacturer.
                 </p>
 
                 <h4 className="text-xl font-semibold mb-4 text-sky-700 font-headline">OUR EXPERTISE</h4>
                 <p className="mb-4">
-                  At SD IoTecs, we pride ourselves on having the best team in the industry. Our IBMS
-                  commissioning experts are second to none, ensuring that your systems not only meet but
-                  exceed operational standards. Our developers are equally skilled, offering top-tier integration
-                  solutions that are both brand-agnostic and technologically advanced.
+                  Our engineers are certified on Niagara 4 and accredited by LOYTEC, and work daily across
+                  Niagara, LOYTEC L-INX, EasyIO and mixed third-party BACnet estates. We maintain a
+                  written internal competency framework and assess our engineers against it before they are
+                  cleared to work unsupervised on a live system. On a running cleanroom or an occupied
+                  campus, “trust us” is not a qualification — so we prefer to be specific about what our people
+                  are certified to do.
                 </p>
                 <p className="mb-4">
                   Want to know more?
@@ -144,8 +154,8 @@ const About = () => {
                     even the most complex challenges.
                   </p>
                   <p>
-                  Whether it&apos;s fine-tuning PID logic or developing state-of-
-                  the-art 3D layouts, our team delivers results that exceed expectations.
+                    Whether it&apos;s fine-tuning PID logic or developing state-of-
+                    the-art 3D layouts, our team delivers results that exceed expectations.
                   </p>
                 </div>
               </div>
@@ -157,9 +167,11 @@ const About = () => {
         preTitle="At SD IoTecs"
         title="Our Commitment"
       >
-        We are committed to delivering excellence in everything we do, from the initial consultation
-        to the final implementation. Our goal is to empower our clients with smart, scalable solutions
-        that drive efficiency and innovation.
+        We commit to three things on every project. That you receive complete, documented
+        handover — every licence, backup, source file and credential. That we recommend the
+        platform your building needs rather than the one that suits our margin. And that when we
+        say a system is commissioned, it has been tested against the specified sequences and there
+        is a signed record to prove it.
       </SectionTitleInfo>
       <section className="pt-16">
         <div className="container mx-auto md:px-16">
@@ -190,12 +202,11 @@ const About = () => {
                   </h3>
                 </div>
 
-                <div className="w-full mt-5">
-                  {bullets.map((item, index) => (
-                    <Benefit key={index} title={item.title} icon={item.icon}>
-                      {item.desc}
-                    </Benefit>
-                  ))}
+                <div className="w-full mt-5 text-center">
+                  <p className="mb-4">
+                    Accredited, not self-declared — Tridium Niagara and LOYTEC accreditation, held and
+                    current, with certificates available on request.
+                  </p>
                 </div>
               </div>
             </div>
@@ -209,7 +220,7 @@ const About = () => {
 function Benefit(props) {
   return (
     <div className="flex items-start mt-8 space-x-3">
-      <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-sky-700 rounded-md w-11 h-11">
+      <div className="flex items-center justify-center shrink-0 mt-1 bg-sky-700 rounded-md w-11 h-11">
         {React.cloneElement(props.icon, {
           className: 'w-7 h-7 text-indigo-50',
         })}

@@ -75,7 +75,7 @@ const navigationConfig = [
 
     {
         title: "About",
-        href: "/about",
+        href: "/about-us",
     },
 
     {

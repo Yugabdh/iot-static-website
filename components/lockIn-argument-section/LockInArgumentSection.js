@@ -88,7 +88,7 @@ const LockInArgumentSection = () => {
                     <div className="mt-12 text-center">
                         <Link
                             href="/why-vendor-neutral"
-                            className="inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-gradient-to-br from-sky-700 to-slate-900 px-6 py-3 text-center text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-slate-300 sm:w-auto"
+                            className="inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-linear-to-br from-sky-700 to-slate-900 px-6 py-3 text-center text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-slate-300 sm:w-auto"
                         >
                             Read: the real cost of a locked-in BMS
                             <span className="ml-2" aria-hidden="true">

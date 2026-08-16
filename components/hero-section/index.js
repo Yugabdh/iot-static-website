@@ -17,7 +17,7 @@ const HeroSection = () => {
                     <div className="w-full lg:w-1/2">
                         <div className="text-center lg:text-left">
                             <h1 className="mx-auto max-w-3xl text-3xl font-bold leading-tight font-headline sm:text-4xl lg:text-5xl">
-                                <span className="bg-gradient-to-r from-sky-700 to-slate-900 bg-clip-text text-transparent">
+                                <span className="bg-linear-to-r from-sky-700 to-slate-900 bg-clip-text text-transparent">
                                     Vendor-Neutral
                                 </span>{" "}
                                 Building Automation, Engineered to Open
@@ -28,8 +28,8 @@ const HeroSection = () => {
                                 SD IoTecs designs, supplies, installs, tests
                                 and commissions Building Management Systems —
                                 then models the data so it belongs to you, not
-                                to your controls vendor. Tridium Niagara and
-                                LOYTEC accredited, delivering across Hyderabad,
+                                to your controls vendor. Tridium Niagara,
+                                LOYTEC and N3uron accredited, delivering across Hyderabad,
                                 Bengaluru and Pune.
                             </p>
 
@@ -37,7 +37,7 @@ const HeroSection = () => {
                             <div className="mt-7 flex w-full flex-col items-stretch gap-3 sm:w-auto sm:flex-row sm:items-center sm:justify-center lg:justify-start">
                                 <Link
                                     href="/contact-us"
-                                    className="inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-gradient-to-br from-sky-700 to-slate-900 px-6 py-3 text-center text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-slate-300 sm:w-auto"
+                                    className="inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-linear-to-br from-sky-700 to-slate-900 px-6 py-3 text-center text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-slate-300 sm:w-auto"
                                     aria-label="Request a Technical Consultation"
                                 >
                                     Request a Technical Consultation

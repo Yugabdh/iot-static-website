@@ -287,7 +287,7 @@ function DesktopDropdownItem({
                 <div
                     ref={menuRef}
                     className={clsx(
-                        "fixed z-[100]",
+                        "fixed z-100",
                         "w-64 max-w-[calc(100vw-1rem)]",
                         "rounded-lg border border-gray-200 bg-white",
                         "p-2 shadow-xl shadow-gray-900/10",

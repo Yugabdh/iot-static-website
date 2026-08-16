@@ -65,7 +65,7 @@ const Footer = () => {
 
     return (
         <footer className="border-t border-gray-200 bg-white">
-            <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+            <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
                 {/* Main footer columns */}
                 <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
                     {/* COLUMN 1 — IDENTITY */}
@@ -88,7 +88,7 @@ const Footer = () => {
                         </p>
 
                         <p className="mt-4 text-sm font-medium leading-6 text-gray-700">
-                            Hyderabad&nbsp; · &nbsp;Bengaluru&nbsp; · &nbsp;Pune
+                            Pune&nbsp; · &nbsp;Mumbai&nbsp; · &nbsp;Hyderabad&nbsp; · &nbsp;Bengaluru
                         </p>
                     </div>
 

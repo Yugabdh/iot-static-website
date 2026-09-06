@@ -5,14 +5,14 @@ import { IoCallSharp, IoMail } from "react-icons/io5";
 const Contact = () => {
   return (
     <section className="mt-22 mb-32">
-      <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
+      <div id="map" className="relative h-75 overflow-hidden bg-cover bg-position-[50%] bg-no-repeat">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.510498728659!2d73.87491437527957!3d18.46052148262145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eb5e6bca99ed%3A0xc279184a9c880112!2sRajgruhi%20Business%20Hub!5e0!3m2!1sen!2sin!4v1724596310562!5m2!1sen!2sin"
           width="100%" height="480" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
       </div>
       <div className="container px-6 md:px-12">
         <div
-          className="block backdrop-blur bg-white/80 supports-backdrop-blur:bg-white/90 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] -mt-[100px]">
+          className="block backdrop-blur bg-white/80 supports-backdrop-blur:bg-white/90 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] -mt-25">
           <div>
             <div className="grid grid-cols-1 md:grid-cols-12">
               <div className="bg-gray-900 md:col-span-4 p-10 text-white">

@@ -20,7 +20,7 @@ export default function NotFound() {
         </p>
         <Link
           href="/"
-          className="inline-block rounded-lg bg-gradient-to-br from-sky-700 to-slate-900 px-6 py-3 text-center text-white hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-slate-300"
+          className="inline-block rounded-lg bg-linear-to-br from-sky-700 to-slate-900 px-6 py-3 text-center text-white hover:bg-linear-to-bl focus:outline-none focus:ring-4 focus:ring-slate-300"
         >
           Go Back Home
         </Link>

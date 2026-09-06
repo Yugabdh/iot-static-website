@@ -69,7 +69,7 @@ const About = () => {
                 </p>
                 <Link
                   href="/contact-us"
-                  className="text-white bg-gradient-to-br from-sky-700 to-slate-900 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-slate-300 rounded-lg px-6 py-3 text-center me-2 mb-2"
+                  className="text-white bg-linear-to-br from-sky-700 to-slate-900 hover:bg-linear-to-bl focus:ring-4 focus:outline-none focus:ring-slate-300 rounded-lg px-6 py-3 text-center me-2 mb-2"
                 >
                   Contact Us
                 </Link>

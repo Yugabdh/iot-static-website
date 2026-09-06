@@ -26,7 +26,7 @@ const partners = [
     logo: '/images/accreditations/easyio.svg',
     logAlt: 'EasyIO logo',
     info: 'EasyIO field controllers give us cost-efficient plant and terminal-unit control that still integrates cleanly into an open supervisory layer. We supply, programme and commission across the EasyIO range.',
-    url: 'https://www.easyio.com/',
+    url: 'https://www.johnsoncontrols.com/building-automation-and-controls/easyio',
   },
   {
     name: 'N3uron',

@@ -43,28 +43,14 @@ const Contact = () => {
                   <IoMail className='mr-2 text-sky-700 text-xl' />
                   <a className="text-sm"
                     href="mailto:info@sdiotecs.com">
-                    General enquiries — info@sdiotecs.com
+                    info@sdiotecs.com
                   </a>
                 </div>
                 <div className="flex items-center mt-5">
                   <IoMail className='mr-2 text-sky-700 text-xl' />
                   <a className="text-sm"
                     href="mailto:sales@sdiotecs.com">
-                    Sales and tenders — sales@sdiotecs.com
-                  </a>
-                </div>
-                <div className="flex items-center mt-5">
-                  <IoMail className='mr-2 text-sky-700 text-xl' />
-                  <a className="text-sm"
-                    href="mailto:support@sdiotecs.com">
-                    Technical support — support@sdiotecs.com
-                  </a>
-                </div>
-                <div className="flex items-center mt-5">
-                  <IoMail className='mr-2 text-sky-700 text-xl' />
-                  <a className="text-sm"
-                    href="mailto:careers@sdiotecs.com">
-                    Careers — careers@sdiotecs.com
+                    sales@sdiotecs.com
                   </a>
                 </div>
                 <div className="flex items-center mt-5">

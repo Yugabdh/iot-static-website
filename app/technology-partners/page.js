@@ -40,7 +40,7 @@ const partners = [
 const PartnerPage = () => {
   return (
     <>
-      <section className="py-16 mt-16 bg-linear-to-r from-sky-700 to-sky-950">
+      <section className="bg-linear-to-r from-sky-700 to-sky-950 px-6 pb-16 pt-32 text-white">
         <div className="container mx-auto md:px-16">
           <div className="text-center mb-12">
             <h1 className="text-3xl md:text-5xl font-headline font-bold mb-4 text-white">Our Technology Partners</h1>

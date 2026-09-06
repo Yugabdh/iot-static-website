@@ -1,5 +1,5 @@
 import React from 'react';
-import features from '@/util/features';
+import services from '@/util/services';
 import ServiceCard from './service-card';
 import Link from 'next/link';
 
@@ -19,12 +19,13 @@ const ServicesSection = () => {
                     </div>
                     <div className="flex flex-wrap gap-8 justify-center">
                         {
-                            features.map((feature, idx) => (
+                            services.map((service) => (
                                 <ServiceCard
-                                    key={idx}
-                                    title={feature.title}
-                                    img={feature.src}
-                                    info={feature.info}
+                                    key={service.slug}
+                                    title={service.shortTitle}
+                                    img={service.icon}
+                                    info={service.summary}
+                                    href={`/services/${service.slug}`}
                                 />
                             ))
                         }

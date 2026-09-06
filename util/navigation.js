@@ -5,7 +5,7 @@ const navigationConfig = [
         children: [
             {
                 title: "Supply, Installation, Testing & Commissioning",
-                href: "/services/supply-installation-testing-commissioning",
+                href: "/services/bms-supply-installation-testing-commissioning",
             },
             {
                 title: "Continuous Commissioning",
@@ -21,7 +21,7 @@ const navigationConfig = [
             },
             {
                 title: "Dashboards & Reporting",
-                href: "/services/dashboards-reporting",
+                href: "/services/dashboards-and-reporting",
             },
             {
                 title: "3D Graphics & Visualisation",

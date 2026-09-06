@@ -6,7 +6,7 @@ import CurrentYear from "./current-year";
 const services = [
     {
         title: "Supply, Installation, Testing & Commissioning",
-        href: "/services/supply-installation-testing-commissioning",
+        href: "/services/bms-supply-installation-testing-commissioning",
     },
     {
         title: "Continuous Commissioning",
@@ -22,7 +22,7 @@ const services = [
     },
     {
         title: "Dashboards & Reporting",
-        href: "/services/dashboards-reporting",
+        href: "/services/dashboards-and-reporting",
     },
     {
         title: "3D Graphics & Visualisation",
@@ -33,7 +33,7 @@ const services = [
 const companyLinks = [
     {
         title: "About Us",
-        href: "/about",
+        href: "/about-us",
     },
     {
         title: "Clients & Projects",

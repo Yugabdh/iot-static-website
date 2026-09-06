@@ -1,9 +1,11 @@
 import React from 'react';
 import Image from "next/image";
+import Link from 'next/link';
 
-const ServiceCard = ({ title, img, info }) => {
+const ServiceCard = ({ title, img, info, href }) => {
     return (
-        <div className="sm:w-full lg:w-96 bg-linear-to-t from-sky-100 to-white shadow-lg border border-sky-100 rounded-lg p-6 text-center transition-all ease-in delay-150 duration-300 hover:-translate-y-1">
+        <Link href={href} className="sm:w-full lg:w-96">
+          <div className="h-full rounded-lg border border-sky-100 bg-linear-to-t from-sky-100 to-white p-6 text-center shadow-lg transition-all delay-150 duration-300 ease-in hover:-translate-y-1">
             <div className="mb-4">
                 <Image
                     src={img}
@@ -22,7 +24,8 @@ const ServiceCard = ({ title, img, info }) => {
             <p className="text-gray-600 mb-4">
                 {info}
             </p>
-        </div>
+          </div>
+        </Link>
     );
 }
 

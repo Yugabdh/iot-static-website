@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaLocationDot } from "react-icons/fa6";
-import { IoCallSharp } from "react-icons/io5";
+import { IoCallSharp, IoMail } from "react-icons/io5";
 
 const Contact = () => {
   return (
-    <section className="mb-32">
+    <section className="mt-22 mb-32">
       <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.510498728659!2d73.87491437527957!3d18.46052148262145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eb5e6bca99ed%3A0xc279184a9c880112!2sRajgruhi%20Business%20Hub!5e0!3m2!1sen!2sin!4v1724596310562!5m2!1sen!2sin"
@@ -20,15 +20,45 @@ const Contact = () => {
                   Contact
                 </p>
                 <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight font-headline">
-                  Get In <span className="text-sky-700">Touch</span>
+                  <span className="text-sky-700">Talk</span> to an Engineer
                 </h3>
                 <p className="mt-4 leading-7 text-gray-200">
-                  Have questions or need support? Reach out to the SD IoTecs team and we&apos;ll be happy to assist you!
+                  Tell us about the building and what it needs to do. You will get a reply from someone who
+                  works on these systems, not from a sales desk. We respond to all technical enquiries within
+                  one working day.
                 </p>
 
                 <div className="flex items-center mt-5">
                   <FaLocationDot className='mr-2 text-sky-700 text-xl' />
                   <span className="text-sm">Office no 203, Rajgruhi Business Hub, Nr Gokul Hotel, Kondhwa, Budruk, 411048</span>
+                </div>
+                <div className="flex items-center mt-5">
+                  <IoMail className='mr-2 text-sky-700 text-xl' />
+                  <a className="text-sm"
+                    href="mailto:info@sdiotecs.com">
+                    General enquiries — info@sdiotecs.com
+                  </a>
+                </div>
+                <div className="flex items-center mt-5">
+                  <IoMail className='mr-2 text-sky-700 text-xl' />
+                  <a className="text-sm"
+                    href="mailto:sales@sdiotecs.com">
+                    Sales and tenders — sales@sdiotecs.com
+                  </a>
+                </div>
+                <div className="flex items-center mt-5">
+                  <IoMail className='mr-2 text-sky-700 text-xl' />
+                  <a className="text-sm"
+                    href="mailto:support@sdiotecs.com">
+                    Technical support — support@sdiotecs.com
+                  </a>
+                </div>
+                <div className="flex items-center mt-5">
+                  <IoMail className='mr-2 text-sky-700 text-xl' />
+                  <a className="text-sm"
+                    href="mailto:careers@sdiotecs.com">
+                    Careers — careers@sdiotecs.com
+                  </a>
                 </div>
                 <div className="flex items-center mt-5">
                   <IoCallSharp className='mr-2 text-sky-700 text-xl' />

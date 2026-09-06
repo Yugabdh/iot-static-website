@@ -1,6 +1,13 @@
 import React from 'react';
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCallSharp, IoMail } from "react-icons/io5";
+import { createPageMetadata } from '@/util/seo-metadata';
+
+export const metadata = createPageMetadata({
+  title: 'Contact SD IoTecs | BMS Integration & Commissioning',
+  description: 'Speak with SD IoTecs about BMS installation, commissioning, data modelling, cloud integration and building automation support across India.',
+  path: '/contact-us',
+});
 
 const Contact = () => {
   return (

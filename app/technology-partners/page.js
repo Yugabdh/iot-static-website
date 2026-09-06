@@ -1,10 +1,12 @@
 import React from 'react';
 import Image from "next/image";
+import { createPageMetadata } from '@/util/seo-metadata';
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: 'Technology Partners | Tridium Niagara, LOYTEC, EasyIO, N3uron | SD IoTecs',
   description: 'SD IoTecs holds Tridium Niagara and LOYTEC accreditation and integrates EasyIO and N3uron — selected for openness, not exclusivity.',
-};
+  path: '/technology-partners',
+});
 
 const partners = [
   {

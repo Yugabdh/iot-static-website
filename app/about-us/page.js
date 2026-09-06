@@ -5,11 +5,13 @@ import React from 'react';
 import { FaCheck } from "react-icons/fa";
 
 import { GrUserExpert, GrTechnology, GrCubes } from "react-icons/gr";
+import { createPageMetadata } from '@/util/seo-metadata';
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: 'About SD IoTecs | Tridium Niagara & LOYTEC Accredited Integrator',
   description: 'SD IoTecs LLP is a vendor-neutral building automation integrator accredited by Tridium Niagara, LOYTEC, EasyIO, Delta Controls and N3uron, delivering across Mumbai, Pune, Hyderabad, Bengaluru',
-}
+  path: '/about-us',
+});
 
 const bullets = [
   {

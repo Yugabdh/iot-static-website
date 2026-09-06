@@ -1,10 +1,12 @@
 import services from '@/util/services';
 import ServiceCard from '@/components/services-section/service-card';
+import { createPageMetadata } from '@/util/seo-metadata';
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: 'Building Automation Services | BMS Integration & Commissioning | SD IoTecs',
   description: 'BMS installation and commissioning, continuous Cx, semantic data modelling, cloud integration, dashboards and 3D graphics. Vendor-neutral delivery across India.',
-};
+  path: '/services',
+});
 
 export default function ServicesPage() {
   return (

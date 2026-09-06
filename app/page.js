@@ -5,10 +5,14 @@ import IndustriesSection from "@/components/industries-section";
 import LockInArgumentSection from "@/components/lockIn-argument-section/LockInArgumentSection";
 import ProofMetricsSection from "@/components/proof-matrix-section";
 import TechnicalCapabilitySection from "@/components/technical-capability-section";
+import { createPageMetadata } from '@/util/seo-metadata';
 
 export const metadata = {
-  title: 'BMS Integrator India | Tridium Niagara & LOYTEC | SD IoTecs',
-  description: 'Vendor-neutral BMS supply, installation, testing, commissioning and cloud integration. Tridium Niagara and LOYTEC accredited. Hyderabad, Bengaluru, Pune.',
+  ...createPageMetadata({
+    title: 'BMS Integrator India | Tridium Niagara & LOYTEC | SD IoTecs',
+    description: 'Vendor-neutral BMS supply, installation, testing, commissioning and cloud integration. Tridium Niagara and LOYTEC accredited. Hyderabad, Bengaluru, Pune.',
+    path: '/',
+  }),
   keywords: ["SD IoTecs", "SD IoTecs site", "SD IoTecs website", "Intelligent Building", "Cloud Integration", "Semantic Ontology", "Digital Twin", "UDMI", "Digital Buildings", "Advanced Analytics", "3D Graphics"],
   metadataBase: new URL('https://www.sdiotecs.com/'),
 };

@@ -13,11 +13,48 @@ export default function ServiceDetailPage({ service }) {
       },
     })),
   };
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://www.sdiotecs.com/',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Services',
+        item: 'https://www.sdiotecs.com/services',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: service.title,
+        item: `https://www.sdiotecs.com/services/${service.slug}`,
+      },
+    ],
+  };
 
   return (
     <main>
       <section className="bg-linear-to-r from-sky-700 to-sky-950 px-6 pb-16 pt-32 text-white">
         <div className="container mx-auto max-w-5xl md:px-16">
+          <nav aria-label="Breadcrumb" className="mb-8 text-sm text-sky-200">
+            <ol className="flex flex-wrap items-center gap-2">
+              <li>
+                <Link href="/" className="hover:text-white">Home</Link>
+              </li>
+              <li aria-hidden="true">/</li>
+              <li>
+                <Link href="/services" className="hover:text-white">Services</Link>
+              </li>
+              <li aria-hidden="true">/</li>
+              <li aria-current="page" className="text-white">{service.title}</li>
+            </ol>
+          </nav>
           <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-sky-200">Building Automation Services</p>
           <h1 className="max-w-5xl text-3xl font-headline font-bold md:text-5xl">{service.title}</h1>
           <p className="mt-6 max-w-5xl text-lg leading-8 text-gray-100">{service.intro}</p>
@@ -82,6 +119,7 @@ export default function ServiceDetailPage({ service }) {
         </div>
       </section>
 
+  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     </main>
   );

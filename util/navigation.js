@@ -35,38 +35,38 @@ const navigationConfig = [
         ],
     },
 
-    {
-        title: "Industries",
-        href: "/industries",
-        children: [
-            {
-                title: "Pharmaceutical & Cleanroom",
-                href: "/industries/pharmaceutical-cleanroom",
-            },
-            {
-                title: "Data Centres & Hyperscale",
-                href: "/industries/data-centres-hyperscale",
-            },
-            {
-                title: "Commercial Offices & Campuses",
-                href: "/industries/commercial-offices-campuses",
-            },
-            {
-                title: "Manufacturing & Industrial",
-                href: "/industries/manufacturing-industrial",
-            },
-            {
-                title: "All Industries",
-                href: "/industries",
-                isViewAll: true,
-            },
-        ],
-    },
+    // {
+    //     title: "Industries",
+    //     href: "/industries",
+    //     children: [
+    //         {
+    //             title: "Pharmaceutical & Cleanroom",
+    //             href: "/industries/pharmaceutical-cleanroom",
+    //         },
+    //         {
+    //             title: "Data Centres & Hyperscale",
+    //             href: "/industries/data-centres-hyperscale",
+    //         },
+    //         {
+    //             title: "Commercial Offices & Campuses",
+    //             href: "/industries/commercial-offices-campuses",
+    //         },
+    //         {
+    //             title: "Manufacturing & Industrial",
+    //             href: "/industries/manufacturing-industrial",
+    //         },
+    //         {
+    //             title: "All Industries",
+    //             href: "/industries",
+    //             isViewAll: true,
+    //         },
+    //     ],
+    // },
 
-    {
-        title: "Clients & Projects",
-        href: "/clients-projects",
-    },
+    // {
+    //     title: "Clients & Projects",
+    //     href: "/clients-projects",
+    // },
 
     {
         title: "Technology Partners",

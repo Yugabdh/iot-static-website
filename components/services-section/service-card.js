@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from "next/image";
 
-const FeaturesCard = ({ title, img, info }) => {
+const ServiceCard = ({ title, img, info }) => {
     return (
-        <div className="sm:w-full lg:w-96 bg-gradient-to-t from-sky-100 to-white shadow-lg border border-sky-100 rounded-lg p-6 text-center transition-all ease-in delay-150 duration-300 hover:-translate-y-1">
+        <div className="sm:w-full lg:w-96 bg-linear-to-t from-sky-100 to-white shadow-lg border border-sky-100 rounded-lg p-6 text-center transition-all ease-in delay-150 duration-300 hover:-translate-y-1">
             <div className="mb-4">
                 <Image
                     src={img}
@@ -26,4 +26,4 @@ const FeaturesCard = ({ title, img, info }) => {
     );
 }
 
-export default FeaturesCard;
+export default ServiceCard;

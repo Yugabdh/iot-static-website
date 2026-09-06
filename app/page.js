@@ -1,5 +1,5 @@
 import AccreditationTrustBar from "@/components/accreditation-trust-bar";
-import FeatureSection from "@/components/features-section";
+import ServicesSection from "@/components/services-section";
 import HeroSection from "@/components/hero-section";
 import IndustriesSection from "@/components/industries-section";
 import LockInArgumentSection from "@/components/lockIn-argument-section/LockInArgumentSection";
@@ -19,7 +19,7 @@ export default function Home() {
       <HeroSection />
       <AccreditationTrustBar />
       <LockInArgumentSection />
-      <FeatureSection />
+      <ServicesSection />
       <TechnicalCapabilitySection />
       <IndustriesSection />
       <ProofMetricsSection />

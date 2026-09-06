@@ -1,10 +1,10 @@
 import React from 'react';
 import features from '@/util/features';
-import FeaturesCard from './features-card';
+import ServiceCard from './service-card';
 import Link from 'next/link';
 
 
-const FeatureSection = () => {
+const ServicesSection = () => {
     return (
         <section className="my-24 sm:my-28 lg:my-32">
             <div className="container mx-auto">
@@ -20,7 +20,7 @@ const FeatureSection = () => {
                     <div className="flex flex-wrap gap-8 justify-center">
                         {
                             features.map((feature, idx) => (
-                                <FeaturesCard
+                                <ServiceCard
                                     key={idx}
                                     title={feature.title}
                                     img={feature.src}
@@ -47,4 +47,4 @@ const FeatureSection = () => {
     )
 }
 
-export default FeatureSection
+export default ServicesSection

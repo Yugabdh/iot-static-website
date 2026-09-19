@@ -28,6 +28,10 @@ const navigationConfig = [
                 href: "/services/3d-graphics-visualisation",
             },
             {
+                title: "FDD & Predictive Maintenance",
+                href: "/services/fdd-predictive-maintenance",
+            },
+            {
                 title: "All Services",
                 href: "/services",
                 isViewAll: true,

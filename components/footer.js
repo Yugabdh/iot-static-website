@@ -28,6 +28,10 @@ const services = [
         title: "3D Graphics & Visualisation",
         href: "/services/3d-graphics-visualisation",
     },
+    {
+        title: "FDD & Predictive Maintenance",
+        href: "/services/fdd-predictive-maintenance",
+    },
 ];
 
 const companyLinks = [

@@ -29,12 +29,12 @@ const CTAsection = () => {
                             Start a Conversation <span className="ml-2">→</span>
                         </Link>
 
-                        <Link
+                        {/* <Link
                             href="/contact-us?enquiry=health-check"
                             className="inline-flex min-w-[280px] items-center justify-center rounded-lg border border-white px-7 py-4 font-semibold text-white transition hover:bg-white hover:text-sky-700"
                         >
                             Request a Free Data Health Check <span className="ml-2">→</span>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>

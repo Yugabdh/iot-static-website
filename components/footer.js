@@ -48,6 +48,10 @@ const companyLinks = [
         href: "/technology-partners",
     },
     {
+        title: "Clients & Projects",
+        href: "/clients-and-projects",
+    },
+    {
         title: "Why Vendor-Neutral",
         href: "/why-vendor-neutral",
     },

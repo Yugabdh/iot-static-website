@@ -74,13 +74,26 @@ function SectionHeading({ children }) {
 export default function WhyVendorNeutralPage() {
   return (
     <main>
-      <section className="bg-linear-to-r from-sky-700 to-sky-950 px-6 pb-16 pt-32 text-white">
-        <div className="container mx-auto max-w-5xl md:px-16">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-sky-200">Vendor-neutral building automation</p>
-          <h1 className="max-w-5xl text-3xl font-headline font-bold md:text-5xl">The Real Cost of a Locked-In Building Management System</h1>
-          <div className="mt-6 max-w-5xl space-y-4 text-lg leading-8 text-gray-100">
-            <p>Nobody signs a contract intending to be locked in. It happens gradually.</p>
-            <p>A proprietary driver here because it was quicker. An undocumented point-naming convention there because the programme was tight. Graphics saved in a format only one contractor can open. A licence registered to the integrator rather than the building owner. Individually, each is a small compromise made for a good reason at the time. Together they mean that five years later, changing supplier costs more than living with the one you have.</p>
+      <section className="relative overflow-hidden border-b border-slate-200 bg-white px-6 pb-20 pt-32 sm:pb-24">
+        <div className="absolute right-0 top-0 hidden h-full w-1/3 bg-slate-900 lg:block" aria-hidden="true" />
+        <div className="absolute right-0 top-0 h-2 w-2/3 bg-sky-600 lg:w-1/3" aria-hidden="true" />
+        <div className="container relative mx-auto max-w-6xl md:px-16">
+          <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_17rem] lg:items-center lg:gap-20">
+            <div>
+              <p className="mb-6 text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">Vendor-neutral building automation</p>
+              <h1 className="max-w-4xl text-4xl font-headline font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">The Real Cost of a Locked-In Building Management System</h1>
+              <div className="mt-8 max-w-4xl space-y-4 text-lg leading-8 text-gray-700 sm:text-xl">
+                <p>Nobody signs a contract intending to be locked in. It happens gradually.</p>
+                <p>A proprietary driver here because it was quicker. An undocumented point-naming convention there because the programme was tight. Graphics saved in a format only one contractor can open. A licence registered to the integrator rather than the building owner. Individually, each is a small compromise made for a good reason at the time. Together they mean that five years later, changing supplier costs more than living with the one you have.</p>
+              </div>
+            </div>
+
+            <div className="relative overflow-hidden bg-slate-900 p-6 text-white sm:p-8 lg:mt-16 z-0">
+              <span className="mb-6 block text-5xl font-headline font-bold leading-none text-sky-400 z-20" aria-hidden="true">Q</span>
+              <p className="text-sm font-semibold uppercase tracking-wider text-sky-300 z-20">The ownership question</p>
+              <p className="mt-3 leading-7 text-gray-300 z-20">Who holds the licences, source files, credentials and data that keep your building changeable?</p>
+              <span className="absolute -bottom-10 -right-4 text-8xl font-bold text-white/5 -z-10" aria-hidden="true">OPEN</span>
+            </div>
           </div>
         </div>
       </section>

@@ -40,6 +40,11 @@ const navigationConfig = [
     },
 
     {
+        title: "Clients & Projects",
+        href: "/clients-and-projects",
+    },
+
+    {
         title: "Why Vendor-Neutral",
         href: "/why-vendor-neutral",
     },

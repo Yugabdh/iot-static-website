@@ -47,14 +47,10 @@ const companyLinks = [
         title: "Technology Partners",
         href: "/technology-partners",
     },
-    // {
-    //     title: "Industries",
-    //     href: "/industries",
-    // },
-    // {
-    //     title: "Why Vendor-Neutral",
-    //     href: "/why-vendor-neutral",
-    // },
+    {
+        title: "Why Vendor-Neutral",
+        href: "/why-vendor-neutral",
+    },
     // {
     //     title: "Insights",
     //     href: "/insights",

@@ -39,6 +39,11 @@ const navigationConfig = [
         ],
     },
 
+    {
+        title: "Why Vendor-Neutral",
+        href: "/why-vendor-neutral",
+    },
+
     // {
     //     title: "Industries",
     //     href: "/industries",

@@ -29,8 +29,7 @@ const HeroSection = () => {
                                 and commissions Building Management Systems —
                                 then models the data so it belongs to you, not
                                 to your controls vendor. Tridium Niagara,
-                                LOYTEC and N3uron accredited, delivering across Hyderabad,
-                                Bengaluru and Pune.
+                                LOYTEC and N3uron accredited, delivering across Pune, Mumbai, Hyderabad and Bangalore.
                             </p>
 
                             {/* CTA buttons */}

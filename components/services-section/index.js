@@ -10,7 +10,6 @@ const ServicesSection = () => {
             <div className="container mx-auto">
                 <div>
                     <div className="text-center mb-8">
-                        <span className="text-sm font-medium text-sky-600 bg-sky-700/30 py-1 px-4 rounded-full">What We Offer</span>
                         <h2 className="text-3xl font-headline font-bold mt-2 mb-4">Our Featured Solutions</h2>
                         <div className="w-16 h-1 bg-sky-700 mx-auto mb-4"></div>
                         <p className="text-gray-600">

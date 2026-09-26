@@ -424,7 +424,7 @@ const services = [
     slug: 'fdd-predictive-maintenance',
     title: 'FDD & Predictive Maintenance for BMS',
     shortTitle: 'FDD & Predictive Maintenance',
-    icon: '/images/png/icons/services.png',
+    icon: '/images/png/icons/threat-detection.png',
     summary: 'Automated fault detection and diagnostics on your existing BMS data, plus condition-based maintenance that replaces calendar-driven servicing.',
     metaTitle: 'FDD & Predictive Maintenance for BMS | SD IoTecs',
     metaDescription: 'Automated fault detection and diagnostics on your existing BMS data, plus condition-based maintenance that replaces calendar-driven servicing.',

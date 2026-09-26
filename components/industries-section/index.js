@@ -1,29 +1,8 @@
+import industries from '@/util/industries';
+import Link from 'next/link';
 import React from 'react'
 
 const IndustriesSection = () => {
-    const industries = [
-        {
-            title: 'Commercial Offices & Campuses',
-            description:
-                'Multi-building estates where energy performance, tenant comfort and a single pane of glass all have to coexist.',
-        },
-        {
-            title: 'Data Centres & Hyperscale',
-            description:
-                'High point-count estates, strict change control, and integration to client-mandated cloud standards.',
-        },
-        {
-            title: 'Manufacturing & Industrial',
-            description:
-                'Utilities monitoring, plant room automation and production-adjacent environmental control.',
-        },
-        {
-            title: 'Pharmaceutical & Cleanroom',
-            description:
-                'GMP-classified environments where the reporting is as regulated as the control.',
-        },
-    ]
-
     return (
         <section className="relative overflow-hidden bg-white my-24 sm:my-28 lg:my-32">
             <div className="container mx-auto px-6 md:px-16">
@@ -46,13 +25,14 @@ const IndustriesSection = () => {
                     {/* Industries */}
                     <div className="mt-14 grid gap-5 md:grid-cols-2">
                         {industries.map((industry, index) => (
-                            <article
-                                key={industry.title}
-                                className="group rounded-2xl border border-slate-200 bg-slate-50 p-7 transition-all duration-300 hover:-translate-y-1 hover:border-sky-200 hover:bg-white hover:shadow-lg sm:p-8"
+                            <Link
+                                key={industry.slug}
+                                href={`/industries/${industry.slug}`}
+                                className="group block rounded-2xl border border-slate-200 bg-slate-50 p-7 transition-all duration-300 hover:-translate-y-1 hover:border-sky-200 hover:bg-white hover:shadow-lg sm:p-8"
                             >
                                 <div className="mb-6 flex items-center justify-between">
                                     <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-sky-700 text-sm font-bold text-white">
-                                        {String(index + 1).padStart(2, '0')}
+                                        {industry.eyebrow}
                                     </span>
 
                                     <span
@@ -63,15 +43,25 @@ const IndustriesSection = () => {
                                     </span>
                                 </div>
 
-                                <h3 className="mb-3 text-xl font-bold text-slate-900 sm:text-2xl">
+                                <h2 className="mb-3 text-xl font-bold text-slate-900 sm:text-2xl">
                                     {industry.title}
-                                </h3>
+                                </h2>
 
                                 <p className="max-w-xl text-base leading-relaxed text-gray-600 sm:text-lg">
-                                    {industry.description}
+                                    {industry.indexDescription}
                                 </p>
-                            </article>
+                            </Link>
                         ))}
+                    </div>
+
+                    <div className="mt-8 text-center">
+                        <a
+                            href="/industries"
+                            className="inline-flex items-center gap-2 text-base font-semibold text-sky-700 transition hover:text-sky-900"
+                        >
+                            See all industries
+                            <span aria-hidden="true">→</span>
+                        </a>
                     </div>
                 </div>
             </div>

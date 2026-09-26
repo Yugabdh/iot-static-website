@@ -49,33 +49,41 @@ const navigationConfig = [
         href: "/why-vendor-neutral",
     },
 
-    // {
-    //     title: "Industries",
-    //     href: "/industries",
-    //     children: [
-    //         {
-    //             title: "Pharmaceutical & Cleanroom",
-    //             href: "/industries/pharmaceutical-cleanroom",
-    //         },
-    //         {
-    //             title: "Data Centres & Hyperscale",
-    //             href: "/industries/data-centres-hyperscale",
-    //         },
-    //         {
-    //             title: "Commercial Offices & Campuses",
-    //             href: "/industries/commercial-offices-campuses",
-    //         },
-    //         {
-    //             title: "Manufacturing & Industrial",
-    //             href: "/industries/manufacturing-industrial",
-    //         },
-    //         {
-    //             title: "All Industries",
-    //             href: "/industries",
-    //             isViewAll: true,
-    //         },
-    //     ],
-    // },
+    {
+        title: "Industries",
+        href: "/industries",
+        children: [
+            {
+                title: "Commercial Buildings",
+                href: "/industries/commercial-buildings",
+            },
+            {
+                title: "Industrial Data",
+                href: "/industries/industrial-data",
+            },
+            {
+                title: "Data Centres",
+                href: "/industries/data-centres",
+            },
+            {
+                title: "Pharmaceutical & Cleanroom",
+                href: "/industries/pharmaceutical-cleanroom",
+            },
+            {
+                title: "Healthcare",
+                href: "/industries/healthcare",
+            },
+            {
+                title: "Hotels & Resorts",
+                href: "/industries/hotels-resorts",
+            },
+            {
+                title: "All Industries",
+                href: "/industries",
+                isViewAll: true,
+            },
+        ],
+    },
 
     // {
     //     title: "Clients & Projects",

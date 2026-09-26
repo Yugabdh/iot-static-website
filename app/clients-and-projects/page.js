@@ -59,14 +59,14 @@ const projects = [
     client: 'Multinational client - multi-building campus',
     whatWeDid: "We built a custom dashboard bringing the client's campus-wide KPIs into one view, designed around the questions the facilities and operations teams actually ask rather than around the structure of the underlying systems.",
     whyItMattered: 'Campus data is almost always spread across several systems and several screens, which means the person who needs an answer has to assemble it manually and nobody looks at the whole picture regularly. Consolidating it into one intuitive view is what turns reporting from a monthly exercise into a daily habit.',
-    technology: '[Confirm platform: Grafana, Niagara or other] · [Confirm REST API] · [Confirm KPI set]',
+    technology: 'Grafana, Niagara · REST API · KPI set',
   },
   {
     title: 'Critical-alarm utility with audible alerting and pop-up escalation',
     client: 'Multinational client - critical facility operations',
     whatWeDid: 'We developed a custom alarming utility for extreme-critical alarms. Where a standard alarm console relies on someone watching the screen, this escalates: an audible alert plus a pop-up on the operations dashboard, so a critical condition cannot pass unnoticed on an unattended workstation.',
     whyItMattered: 'In most buildings the truly critical alarms - the handful where minutes matter - sit in the same queue as several hundred routine ones and are acknowledged with the same reflex. Separating them into their own escalation path, with an alert the room cannot ignore, is a small piece of engineering with a disproportionate consequence.',
-    technology: '[Confirm platform] · custom utility development · audible and visual escalation',
+    technology: 'Custom utility development · audible and visual escalation',
   },
 ];
 

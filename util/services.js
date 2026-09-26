@@ -7,7 +7,7 @@ const services = [
     summary: 'End-to-end BMS delivery under one accountable contract — from panel schedule to functional testing and documented handover.',
     metaTitle: 'BMS Installation & Commissioning | SITC | SD IoTecs',
     metaDescription: 'End-to-end BMS supply, installation, testing and commissioning on Tridium Niagara, LOYTEC and EasyIO. Panel fabrication to documented handover.',
-    intro: 'One contract, one accountable party, from the panel schedule to the signed commissioning record. We take responsibility for the whole delivery — procurement, fabrication, installation supervision, testing and handover — so you are not coordinating four vendors and arbitrating between them when a valve does not respond.',
+    intro: 'One contract, one accountable party, from the panel schedule to the signed commissioning record. We take responsibility for the whole delivery procurement, fabrication, installation supervision, testing and handover so you are not coordinating four vendors and arbitrating between them when a valve does not respond.',
     cta: {
       label: 'Send us your specification',
       href: '/contact-us',

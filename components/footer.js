@@ -39,10 +39,6 @@ const companyLinks = [
         title: "About Us",
         href: "/about-us",
     },
-    // {
-    //     title: "Clients & Projects",
-    //     href: "/clients-projects",
-    // },
     {
         title: "Technology Partners",
         href: "/technology-partners",
@@ -55,10 +51,10 @@ const companyLinks = [
         title: "Why Vendor-Neutral",
         href: "/why-vendor-neutral",
     },
-    // {
-    //     title: "Insights",
-    //     href: "/insights",
-    // },
+    {
+        title: "Industries",
+        href: "/industries",
+    },
     {
         title: "Contact Us",
         href: "/contact-us",

@@ -177,39 +177,48 @@ export default function ServiceDetailPage({ service }) {
                   </a>
                 )}
 
-                {section.media?.items?.length > 0 && (
-                  <div
-                    className={`mt-8 grid gap-6 ${
-                      section.media.type === 'logos'
-                        ? 'grid-cols-2 sm:grid-cols-3'
-                        : 'grid-cols-1 sm:grid-cols-2'
-                    }`}
-                  >
-                    {section.media.items.map((item) => {
-                      const isLogo = section.media.type === 'logos';
+                {section.images?.length > 0 && (
+                  <div className="mt-8 grid grid-cols-1 gap-6">
+                    {section.images.map((image) => (
+                      <figure key={image.src} className="space-y-3">
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          width={image.width}
+                          height={image.height}
+                          sizes="(max-width: 1024px) calc(100vw - 3rem), 640px"
+                          className="h-auto w-full"
+                        />
+                        {image.label && (
+                          <figcaption className="text-sm text-gray-600">
+                            {image.label}
+                          </figcaption>
+                        )}
+                      </figure>
+                    ))}
+                  </div>
+                )}
 
-                      return (
-                        <figure
-                          key={item.src}
-                          className={isLogo ? 'flex flex-col items-center gap-3' : 'space-y-3'}
-                        >
+                {section.logos?.length > 0 && (
+                  <div className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3">
+                    {section.logos.map((logo) => (
+                      <figure key={logo.src} className="flex flex-col items-center gap-3">
+                        <div className="relative h-20 w-40">
                           <Image
-                            src={item.src}
-                            alt={item.alt}
-                            width={item.width ?? (isLogo ? 320 : 1200)}
-                            height={item.height ?? (isLogo ? 160 : 675)}
-                            className={isLogo
-                              ? 'h-20 w-40 object-contain'
-                              : 'h-auto w-full rounded-lg object-cover'}
+                            src={logo.src}
+                            alt={logo.alt}
+                            fill
+                            sizes="160px"
+                            className="object-contain"
                           />
-                          {item.label && (
-                            <figcaption className="text-sm text-gray-600">
-                              {item.label}
-                            </figcaption>
-                          )}
-                        </figure>
-                      );
-                    })}
+                        </div>
+                        {logo.label && (
+                          <figcaption className="text-sm text-gray-600">
+                            {logo.label}
+                          </figcaption>
+                        )}
+                      </figure>
+                    ))}
                   </div>
                 )}
               </section>

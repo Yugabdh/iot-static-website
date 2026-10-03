@@ -75,6 +75,12 @@ const services = [
           'EasyIO where cost-efficient plant and terminal-unit control is required without giving up an open supervisory layer above it.',
           'We will tell you honestly which is right for your building, including the cases where the answer is none of the above and you are better served by the manufacturer\'s own controls. That advice has cost us work. We would rather give it than install the wrong system.',
         ],
+
+        logos: [
+          { src: '/images/accreditations/tridium-niagara.svg', alt: 'Tridium Niagara' },
+          { src: '/images/accreditations/loytec.svg', alt: 'LOYTEC' },
+          { src: '/images/accreditations/easyio.svg', alt: 'EasyIO' },
+        ],
       },
       {
         heading: 'What You Receive at Handover',
@@ -118,6 +124,15 @@ const services = [
         heading: 'What Continuous Commissioning Actually Involves',
         paragraphs: [
           'Commissioning is usually treated as an event: a set of tests, a signature, a handover file. Continuous commissioning treats it as a process that runs for the life of the building, using the data the BMS is already collecting.',
+        ],
+        
+        images: [
+          {
+            src: '/images/services/continuous-commissioning-diagram.svg',
+            alt: 'continuous-commissioning-diagram',
+            width: 1200,
+            height: 178,
+          },
         ],
         groups: [
           {
@@ -221,6 +236,13 @@ const services = [
             },
           ],
         },
+
+        
+        logos: [
+          { src: '/images/services/bricks-schema.png', alt: 'Brick Schema' },
+          { src: '/images/services/project-haystack.svg', alt: 'Project Haystack' },
+          { src: '/images/services/udmi_logo.png', alt: 'UDMI' },
+        ],
       },
       {
         heading: 'What the Work Involves',
@@ -400,6 +422,15 @@ const services = [
           'Complete Niagara Px graphics packages and Trend IQ Vision front ends',
           'Web dashboard visuals and SVG asset sets for custom front ends',
         ],
+        
+        images: [
+          {
+            src: '/images/services/dashboard.jpg',
+            alt: 'FDD Stages',
+            width: 1920,
+            height: 1367,
+          },
+        ],
       },
       {
         heading: 'How It Works',
@@ -540,6 +571,14 @@ const services = [
             items: [
               'A recurring review cycle typically monthly or quarterly where we assess which faults recurred, which were closed, which rules need retuning, and what the programme has saved. This is where FDD and continuous commissioning become the same activity.',
             ],
+          },
+        ],
+        images: [
+          {
+            src: '/images/services/fdd-diagram.svg',
+            alt: 'FDD Stages',
+            width: 1200,
+            height: 178,
           },
         ],
       },

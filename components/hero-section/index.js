@@ -26,7 +26,7 @@ const HeroSection = () => {
 
                             <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-gray-700 sm:text-lg sm:leading-8 lg:mx-0">
                                 SD IoTecs designs, supplies, installs, tests
-                                and commissions Building Management Systems —
+                                and commissions Building Management Systems 
                                 then models the data so it belongs to you, not
                                 to your controls vendor. Tridium Niagara,
                                 LOYTEC and N3uron accredited, delivering across Pune, Mumbai, Hyderabad and Bangalore.

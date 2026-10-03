@@ -68,7 +68,7 @@ const Footer = () => {
             <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
                 {/* Main footer columns */}
                 <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
-                    {/* COLUMN 1 — IDENTITY */}
+                    {/* COLUMN 1 IDENTITY */}
                     <div>
                         <div>
                             <img
@@ -92,7 +92,7 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    {/* COLUMN 2 — SERVICES */}
+                    {/* COLUMN 2 SERVICES */}
                     <div>
                         <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
                             Services
@@ -112,7 +112,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* COLUMN 3 — COMPANY */}
+                    {/* COLUMN 3 COMPANY */}
                     <div>
                         <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
                             Company
@@ -132,7 +132,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* COLUMN 4 — GET IN TOUCH */}
+                    {/* COLUMN 4 GET IN TOUCH */}
                     <div>
                         <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
                             Get in Touch

@@ -45,15 +45,15 @@ const AboutSection = () => {
                                     sell an open framework.
                                 </p>
                                 <p className="text-gray-600">
-                                    Open protocols by default — BACnet/IP, Modbus, LonWorks, MQTT v5 and REST. 
+                                    Open protocols by default BACnet/IP, Modbus, LonWorks, MQTT v5 and REST. 
                                     Proprietary integration only where you explicitly require it.
                                 </p>
                                 <p className="text-gray-600">
-                                    Portable data models — your points are tagged to published schemas, so any analytics or 
+                                    Portable data models your points are tagged to published schemas, so any analytics or 
                                     fault-detection platform can read them without a translation project.
                                 </p>
                                 <p className="text-gray-600">
-                                    Complete handover — licences, backups, source files and documentation transferred in full 
+                                    Complete handover licences, backups, source files and documentation transferred in full 
                                     at project close. No hostage assets.
                                 </p>
                             </div>

@@ -21,7 +21,7 @@ const About = () => {
             </h1>
             <div className="mx-auto mb-4 h-1 w-16 bg-sky-700" />
             <p className="mx-auto max-w-5xl text-lg leading-8 text-gray-700">
-              SD IoTecs LLP is a building automation systems integrator working across Hyderabad, Bengaluru and Pune. We supply, install, test and commission building management systems, and we build the data layer on top of them — semantic models, cloud integration, dashboards and compliance reporting.
+              SD IoTecs LLP is a building automation systems integrator working across Hyderabad, Bengaluru and Pune. We supply, install, test and commission building management systems, and we build the data layer on top of them semantic models, cloud integration, dashboards and compliance reporting.
             </p>
           </div>
 
@@ -81,7 +81,7 @@ const About = () => {
             <strong className="font-semibold text-white">Commissioned means tested.</strong>{" "}
             When we say a system is commissioned, it has been tested against the
             specified sequences of operation and there is a signed record to prove
-            it. Not a walkthrough, not a demonstration — a record.
+            it. Not a walkthrough, not a demonstration a record.
           </p>
         </div>
       </section>
@@ -118,16 +118,16 @@ const About = () => {
                 <div className="w-full mt-5 text-left">
                   <ul className="space-y-4 text-gray-700">
                     <li className="leading-8">
-                      <strong className="font-semibold text-slate-900">Accredited, not self-declared</strong> — Tridium Niagara and LOYTEC accreditation, held and current, with certificates available on request.
+                      <strong className="font-semibold text-slate-900">Accredited, not self-declared</strong> Tridium Niagara and LOYTEC accreditation, held and current, with certificates available on request.
                     </li>
                     <li className="leading-8">
-                      <strong className="font-semibold text-slate-900">Open by default</strong> — open protocols, published data schemas and complete handover, so you are never held hostage by your own building.
+                      <strong className="font-semibold text-slate-900">Open by default</strong> open protocols, published data schemas and complete handover, so you are never held hostage by your own building.
                     </li>
                     <li className="leading-8">
-                      <strong className="font-semibold text-slate-900">Regulated-environment experience</strong> — GMP cleanroom and hyperscale campus delivery, where documentation standards are as demanding as the engineering.
+                      <strong className="font-semibold text-slate-900">Regulated-environment experience</strong> GMP cleanroom and hyperscale campus delivery, where documentation standards are as demanding as the engineering.
                     </li>
                     <li className="leading-8">
-                      <strong className="font-semibold text-slate-900">Depth beyond controls</strong> — in-house capability in data modelling, cloud integration and reporting, so the system does not stop at the head end.
+                      <strong className="font-semibold text-slate-900">Depth beyond controls</strong> in-house capability in data modelling, cloud integration and reporting, so the system does not stop at the head end.
                     </li>
                   </ul>
                 </div>

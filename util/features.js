@@ -2,7 +2,7 @@ const features = [
     {
         title: "Supply, Installation, Testing & Commissioning",
         src: "/images/png/icons/services.png",
-        info: "Complete BMS delivery under one contract — design review, panel fabrication, field device supply, installation supervision, point-to-point testing, functional performance testing and documented handover."
+        info: "Complete BMS delivery under one contract design review, panel fabrication, field device supply, installation supervision, point-to-point testing, functional performance testing and documented handover."
     },
     {
         title: "Continuous Commissioning",

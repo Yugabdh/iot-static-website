@@ -5,7 +5,7 @@ import partners from '@/util/partners';
 
 export const metadata = createPageMetadata({
   title: 'Technology Partners | Tridium Niagara, LOYTEC, EasyIO, N3uron | SD IoTecs',
-  description: 'SD IoTecs holds Tridium Niagara and LOYTEC accreditation and integrates EasyIO and N3uron — selected for openness, not exclusivity.',
+  description: 'SD IoTecs holds Tridium Niagara and LOYTEC accreditation and integrates EasyIO and N3uron selected for openness, not exclusivity.',
   path: '/technology-partners',
 });
 
@@ -18,7 +18,7 @@ const PartnerPage = () => {
             <h1 className="text-3xl md:text-5xl font-headline font-bold mb-4 text-white">Our Technology Partners</h1>
             <div className="w-16 h-1 bg-sky-700 mx-auto mb-4"></div>
             <p className="text-lg text-gray-100">
-              We hold accreditation with the platform vendors we deliver on, and we choose them for the same reason our clients choose us — because they are open. Accreditation means our engineers are trained and assessed by the manufacturer, that we can supply genuine licensed product, and that we have escalation routes into their technical support when a project needs it.
+              We hold accreditation with the platform vendors we deliver on, and we choose them for the same reason our clients choose us because they are open. Accreditation means our engineers are trained and assessed by the manufacturer, that we can supply genuine licensed product, and that we have escalation routes into their technical support when a project needs it.
             </p>
           </div>
         </div>

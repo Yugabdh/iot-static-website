@@ -13,7 +13,7 @@ export default function NotFound() {
         <FaLinkSlash className="mx-auto mb-8 text-7xl text-sky-700" aria-hidden="true" />
         <p className="mb-3 text-lg font-semibold text-sky-700">404</p>
         <h1 className="mb-6 text-3xl font-headline font-bold text-gray-900 md:text-5xl">
-          404 — Page Not Found
+          404 Page Not Found
         </h1>
         <p className="mx-auto mb-8 max-w-xl text-lg leading-8 text-gray-700">
           Sorry, the page you’re looking for doesn’t exist or may have been moved. Let’s get you back on track.

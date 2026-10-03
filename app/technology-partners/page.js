@@ -63,15 +63,17 @@ function Partner(props) {
         <p className="mt-2 text-gray-800">
           {props.info}
         </p>
-        <a
-          href={props.url}
-          className="inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-linear-to-br from-sky-700 to-slate-900 px-6 py-3 text-center text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-slate-300 sm:w-auto mt-5"
-          aria-label="Learn More"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn More
-        </a>
+        {props.url && (
+          <a
+            href={props.url}
+            className="inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-linear-to-br from-sky-700 to-slate-900 px-6 py-3 text-center text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-slate-300 sm:w-auto mt-5"
+            aria-label="Learn More"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn More
+          </a>
+        )}
       </div>
     </div>
   );

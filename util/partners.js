@@ -34,6 +34,12 @@ const partners = [
     info: 'As an IQnext partner, SD IoTecs delivers connected building control across an entire portfolio from one cloud platform  with the head-end supervisory layer on subscription instead of a capex server-and-licence purchase.',
     url: 'https://www.iqnext.io/',
   },
+  {
+    name: 'Cloud Technologies',
+    logo: '/images/accreditations/cloud-technologies.svg',
+    logAlt: 'Cloud Technologies logo',
+    info: 'Azure, AWS and Google Cloud Platform. Supervisory, historian and analytics workloads deployed on your cloud of choice, in-region, with no infrastructure lock-in.',
+  },
 ];
 
 export default partners;

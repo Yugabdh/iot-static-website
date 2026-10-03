@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import CTAsection from './cta-section';
 
@@ -174,6 +175,42 @@ export default function ServiceDetailPage({ service }) {
                   >
                     {section.externalLink.label} <span aria-hidden="true">→</span>
                   </a>
+                )}
+
+                {section.media?.items?.length > 0 && (
+                  <div
+                    className={`mt-8 grid gap-6 ${
+                      section.media.type === 'logos'
+                        ? 'grid-cols-2 sm:grid-cols-3'
+                        : 'grid-cols-1 sm:grid-cols-2'
+                    }`}
+                  >
+                    {section.media.items.map((item) => {
+                      const isLogo = section.media.type === 'logos';
+
+                      return (
+                        <figure
+                          key={item.src}
+                          className={isLogo ? 'flex flex-col items-center gap-3' : 'space-y-3'}
+                        >
+                          <Image
+                            src={item.src}
+                            alt={item.alt}
+                            width={item.width ?? (isLogo ? 320 : 1200)}
+                            height={item.height ?? (isLogo ? 160 : 675)}
+                            className={isLogo
+                              ? 'h-20 w-40 object-contain'
+                              : 'h-auto w-full rounded-lg object-cover'}
+                          />
+                          {item.label && (
+                            <figcaption className="text-sm text-gray-600">
+                              {item.label}
+                            </figcaption>
+                          )}
+                        </figure>
+                      );
+                    })}
+                  </div>
                 )}
               </section>
             ))}
